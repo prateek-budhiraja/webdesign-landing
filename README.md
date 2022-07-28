@@ -1,4 +1,4 @@
-# Creative Studio Landing Page
+# Web Designing Landing Page
 
 > ## [Prateek Budhiraja](https://prateekbudhiraja.in)
 
