@@ -1,0 +1,105 @@
+:root {
+  --primary: #3E4794;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 60px 10px 80px;
+  justify-content: space-between;
+}
+
+nav>img {
+  width: 110px;
+}
+
+nav .nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+nav button.signin-btn {
+  padding: 6px 14px;
+  border-radius: 15px;
+}
+
+/* left section */
+
+.left-section {
+  margin: 100px 80px;
+}
+
+.left-section h1 {
+  margin-bottom: 60px;
+  font-size: 5rem;
+  color: var(--primary);
+}
+
+.left-section h4 {
+  width: 25%;
+  font-weight: 100;
+  line-height: 25px;
+  margin-bottom: 90px;
+}
+
+button {
+  background: linear-gradient(to right, #9646f1, #E1A2B8);
+  border: 0;
+  color: #fff;
+}
+
+
+.left-section button.learn-more-btn {
+  border-radius: 25px;
+  padding: 10px 35px;
+  font-size: 1.5rem;
+}
+
+
+
+/* right area */
+.imgs-div::before {
+  content: url("../images/backcover.svg");
+  transform: scale(0.9, 0.9);
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -46px;
+  right: -45px;
+}
+
+img[alt="intro-img"] {
+  transform: scale(0.9, 0.9);
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+}
+
+.vector-img {
+  transform: scale(0.9, 0.9);
+  position: absolute;
+  bottom: 150px;
+  right: 690px;
+}
+
+.vector-dot {
+  transform: scale(0.9, 0.9);
+  position: absolute;
+  bottom: 240px;
+  right: 710px;
+}
