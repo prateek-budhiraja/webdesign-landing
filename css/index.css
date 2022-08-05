@@ -103,3 +103,40 @@ img[alt="intro-img"] {
   bottom: 240px;
   right: 710px;
 }
+
+@media screen and (max-width: 1120px) {
+  nav {
+    padding: 30px;
+  }
+
+  img[alt="intro-img"] {
+    display: none;
+  }
+
+  nav>img {
+    width: 90px;
+  }
+
+  nav .nav-items {
+    display: none;
+  }
+
+  .left-section {
+    margin: 80px 40px;
+  }
+
+  .left-section h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+  }
+
+  .left-section h4 {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .left-section button.learn-more-btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
